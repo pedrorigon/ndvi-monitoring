@@ -1,0 +1,36 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Spotlight and Finder
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Icon files
+Icon?
+Desktop.ini
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+
+# VS Code workspace settings
+.vscode/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Databricks
+.dbfs/
