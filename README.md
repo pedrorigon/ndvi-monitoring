@@ -40,7 +40,7 @@ This project automates the extraction, transformation, and visualization of NDVI
 
 ---
 
-## 🧭 Visualization with Kepler.gl
+## 🧱 Visualization with Kepler.gl
 
 1. Go to [https://kepler.gl](https://kepler.gl)
 2. Upload the file: `ndvi_gold_ijui_grid_1km_2014_2024.geojson`
@@ -48,6 +48,21 @@ This project automates the extraction, transformation, and visualization of NDVI
 4. Color by `queda_pct`, configure color gradient (e.g. blue → red)
 5. Animate using the `year` field
 
+---
+
+## 📸 Yearly NDVI Variation Maps (2014 – 2022)
+
+Below are example snapshots from Kepler.gl for each year:
+
+| Year | NDVI Map                     |
+| ---- | -----------------------------|
+| 2014 | ![2014](images/2014_view.png)|
+| 2015 | ![2015](images/2015_view.png)|
+| 2016 | ![2016](images/2016_view.png)|
+| 2021 | ![2022](images/2021_view.png)|
+| 2022 | ![2023](images/2022_view.png)|
+
+> These maps visualize year-over-year NDVI changes. Higher negative values indicate stronger vegetation loss.
 
 ---
 
